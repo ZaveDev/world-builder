@@ -1,0 +1,21 @@
+.global-search-container {
+  height: 5vh;
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.global-search-input {
+width: 80%;
+}
+.global-search-input input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: whitesmoke;
+  width:100%;
+
+}
+.global-search-container input:focus {
+  outline:none;
+} 
